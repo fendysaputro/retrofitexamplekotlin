@@ -8,6 +8,7 @@ interface Api {
 //    @GET("user")
     fun getPosts(): Call<ArrayList<PostResponse>>
 
+    @GET("users")
     fun getUsers(): Call<ArrayList<UsersResponse>>
 
 }
